@@ -1,5 +1,6 @@
 body {
     font-family: 'Garamond', serif;
+    font-size: 20px;
 }
 
 
@@ -26,8 +27,34 @@ body{
     gap: 15px;
 }
 
+.login{
+    text-align: center;
+    color: aliceblue;
+    
+}
 
+.caixa{
+    text-align: center;
+    color: aliceblue;
 
+}
 
+.caixa input{
+    width: 200px;
+    height: 20px;
+}
+
+.cadastro{
+    text-align: center;
+    color: aliceblue;
+}
+
+.cadastro a{
+    color: aliceblue;
+}
+
+.login a{
+    color: aliceblue;
+}
     /*background-image: linear-gradient(135deg,); 'DEGRADE' */
 
