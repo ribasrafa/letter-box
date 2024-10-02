@@ -56,4 +56,30 @@ body{
 .login a{
     color: aliceblue;
 }
+
+ul{
+    list-style-type: none; /*tirar bolinha*/
+}
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+
+.inicio{
+    display: flex;
+    background-color: #202830;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+}
+.cartao{
+    display: flex;
+    gap: 10px;
+}
+
+
+
     /*background-image: linear-gradient(135deg,); 'DEGRADE' */
