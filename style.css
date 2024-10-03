@@ -59,17 +59,21 @@ body{
 
 ul{
     list-style-type: none; /*tirar bolinha*/
+    color: aliceblue;
+    text-align: center;
 }
 
 li{
     display: inline;
     padding: 1rem;
+    text-align: center;
 }
 
-.inicio{
+.postagens{
     display: flex;
     background-color: #202830;
     flex-direction: column;
+    
 }
 
 .card{
@@ -78,7 +82,42 @@ li{
 .cartao{
     display: flex;
     gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    
 }
+
+.perfil{
+    display: flex;
+    background-color: #202830;
+    text-align: center;
+}
+
+/* #carrossel{
+    width: 100%;
+    height: 20px;
+} */
+
+#carrossel {
+    width: 80%; /* Ajuste a largura como preferir */
+    height: 400px; /* Ajuste a altura como preferir */
+    margin: auto; /* Centraliza o carrossel */
+    overflow: hidden;
+  }
+
+  #carrossel .carousel-item img {
+    height: 100%; /* Faz com que a imagem ocupe toda a altura do carrossel */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
+  }
+
+.inicio {
+    display: flex;
+    background-color: #202830;
+    flex-direction: column;
+  
+}
+
+
 
 
 
