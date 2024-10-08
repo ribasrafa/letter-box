@@ -117,6 +117,23 @@ li{
   
 }
 
+.botoes{
+    display: flex;
+    width: 100%;
+    justify-content: center; /*Comentário*/
+    gap: 15px;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.botoes a{
+    color: #9ca4a4;
+    width: 200px;
+    text-decoration: none; /*remove o sublinhado dos botoes*/
+    padding: 10px;
+    background-color: aliceblue;
+    text-align: center;
+}
 
 
 
