@@ -94,6 +94,8 @@ li {
     text-align: center;
 }
 
+
+
 /* #carrossel{
     width: 100%;
     height: 20px;
@@ -158,7 +160,8 @@ li a{
     color: aliceblue;
 }
 
-.asssitidos{
+.assistidos{
     display: flex;
+    background-color: #202830;
 }
     /*background-image: linear-gradient(135deg,); 'DEGRADE' */
