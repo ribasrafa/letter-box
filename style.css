@@ -153,6 +153,8 @@ li {
 
 .amigos{
     background-color: #202830;
+    color: aliceblue;
+
 }
 
 li a{
@@ -164,4 +166,39 @@ li a{
     display: flex;
     background-color: #202830;
 }
+
+.quero{
+    display: flex;
+    background-color: #202830;
+    flex-direction: column;
+}
+.pagina{
+    display: flex;
+    gap: 30px;
+}
+
+.qa{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.jafoi{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.ja{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.quis{
+    background-color: #202830;
+    display: flex;
+    flex-direction: column; /*coloca os elementos em coluna*/
+}
+
     /*background-image: linear-gradient(135deg,); 'DEGRADE' */
