@@ -1,0 +1,204 @@
+body {
+    font-family: 'Garamond', serif;
+    font-size: 20px;
+}
+
+
+body{
+    background-color: #202830;
+}
+
+.pag-inicial {
+    text-align: center;
+}
+
+.botao a{
+    color: #9ca4a4;
+    width: 200px;
+    text-decoration: none; /*remove o sublinhado dos botoes*/
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.botao{
+    display: flex;
+    width: 100%;
+    justify-content: center; /*Comentário*/
+    gap: 15px;
+}
+
+.login{
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.caixa{
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.caixa input{
+    width: 200px;
+    height: 20px;
+}
+
+.cadastro{
+    text-align: center;
+    color: aliceblue;
+}
+
+.cadastro a{
+    color: aliceblue;
+}
+
+.login a{
+    color: aliceblue;
+}
+
+ul{
+    list-style-type: none; /*tirar bolinha*/
+    color: aliceblue;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 1rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+.postagens{
+    display: flex;
+    background-color: #202830;
+    flex-direction: column;
+    
+}
+
+.card{
+    display: flex;
+}
+.cartao{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.perfil{
+    display: flex;
+    background-color: #202830;
+    text-align: center;
+}
+
+
+
+/* #carrossel{
+    width: 100%;
+    height: 20px;
+} */
+
+#carrossel {
+    width: 80%; /* Ajuste a largura como preferir */
+    height: 400px; /* Ajuste a altura como preferir */
+    margin: auto; /* Centraliza o carrossel */
+    overflow: hidden;
+  }
+
+  #carrossel .carousel-item img {
+    height: 100%; /* Faz com que a imagem ocupe toda a altura do carrossel */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
+  }
+
+.inicio {
+    display: flex;
+    background-color: #202830;
+    flex-direction: column;
+  
+}
+
+.botoes{
+    display: flex;
+    width: 100%;
+    justify-content: center; /*Comentário*/
+    gap: 15px;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.botoes a{
+    color: #9ca4a4;
+    width: 200px;
+    text-decoration: none; /*remove o sublinhado dos botoes*/
+    padding: 10px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.amg img{
+    border-radius: 50%;
+}
+
+.amg{
+    display: flex;
+    flex-wrap: wrap; /*não deixando para fora da tela*/
+}
+
+.av p{
+    text-align: center;
+}
+
+.amigos{
+    background-color: #202830;
+    color: aliceblue;
+
+}
+
+li a{
+    display: inline;
+    color: aliceblue;
+}
+
+.assistidos{
+    display: flex;
+    background-color: #202830;
+}
+
+.quero{
+    display: flex;
+    background-color: #202830;
+    flex-direction: column;
+}
+.pagina{
+    display: flex;
+    gap: 30px;
+}
+
+.qa{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.jafoi{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.ja{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.quis{
+    background-color: #202830;
+    display: flex;
+    flex-direction: column; /*coloca os elementos em coluna*/
+}
+
+    /*background-image: linear-gradient(135deg,); 'DEGRADE' */
