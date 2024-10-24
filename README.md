@@ -25,3 +25,23 @@ Nesse repositório está implementando o sistemas de um site de filmes, que é u
 
 5. Deseja abrir o repositório clonado? Abrir.
 
+
+### Instalar a Extenção do Python
+1.  Clique em "Extenções" no menu a esquerda ou CTRL+SHIFT+X.
+
+2. Procure por "Python".
+
+3. Clique em "Instalar".
+
+### Instalar a blibioteca Flask
+1. Abrir um novo terminal: Barra de ferrementas > Três pontinhos > Terminal > Novo Terminal.
+
+2. Digite o comando `pip instal flask --user` e pressione enter 
+
+
+### Configurado GIT
+1. No terminal digite os comandor:
+
+`git config user.name seu_usuario`
+
+`git config user.email seu_nome@email.com`
