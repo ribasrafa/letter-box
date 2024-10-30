@@ -106,18 +106,17 @@ li {
     height: 400px; /* Ajuste a altura como preferir */
     margin: auto; /* Centraliza o carrossel */
     overflow: hidden;
-  }
+}
 
-  #carrossel .carousel-item img {
+#carrossel .carousel-item img {
     height: 100%; /* Faz com que a imagem ocupe toda a altura do carrossel */
     object-fit: cover; /* Ajusta a imagem sem distorcer */
-  }
+}
 
 .inicio {
     display: flex;
     background-color: #202830;
     flex-direction: column;
-  
 }
 
 .botoes{

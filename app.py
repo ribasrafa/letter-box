@@ -20,18 +20,18 @@ def login ():
     return render_template('login.html')
 
 #Verificar o login
-@app.route('/verificar-login', methos=['POST'])
+@app.route('/verificar-login', methods=['POST'])
 def verificar_login():
 
 #Pegando o que o usuario digitou no campo de entrada de user e senha
-    username = request.form['username']
-    password = request.form['password']
+    username = request.form['usuario']
+    password = request.form['senha']
 
-#Verificar se o usuario digitado está na lista e se a senha está certa
-if username in usuarios and usuarios[username] == password:
-    return f"Bem-vindo, {username}!"
-else:
-    return "Usuário ou senha inválidos."
+    #Verificar se o usuario digitado está na lista e se a senha está certa
+    if username in usuarios and usuarios[username] == password:
+        return f"Bem-vindo, {username}!"
+    else:
+        return "Usuário ou senha inválidos."
 
 # Parte principal do programa em Python
 if __name__ == '__main__':
