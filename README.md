@@ -26,7 +26,7 @@ Nesse repositório está implementando o sistemas de um site de filmes, que é u
 5. Deseja abrir o repositório clonado? Abrir.
 
 
-### Instalar a Extenção do Python
+### Instalar a Extensão do Python
 1.  Clique em "Extenções" no menu a esquerda ou CTRL+SHIFT+X.
 
 2. Procure por "Python".
@@ -36,7 +36,7 @@ Nesse repositório está implementando o sistemas de um site de filmes, que é u
 ### Instalar a blibioteca Flask
 1. Abrir um novo terminal: Barra de ferrementas > Três pontinhos > Terminal > Novo Terminal.
 
-2. Digite o comando `pip instal flask --user` e pressione enter 
+2. Digite o comando `pip install flask --user` e pressione enter 
 
 
 ### Configurado GIT
