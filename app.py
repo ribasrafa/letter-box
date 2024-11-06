@@ -1,6 +1,7 @@
 # Importando a biblioteca do Flask para fazer um site
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, flash
 app = Flask(__name__)
+app.secret_key = "chave_segura"
 
 # criar uma lista de usuarios e senha, depois vamos pegar no DB
 usuarios = {
@@ -55,7 +56,8 @@ def verificar_login():
     if username in usuarios and usuarios[username] == password:
         return redirect(url_for("inicio"))
     else:
-        return "Usuário ou senha inválidos."
+        flash('Usuário ou senha inválidos.', 'danger')
+        return redirect(url_for('login'))
 
 # Parte principal do programa em Python
 if __name__ == '__main__':
