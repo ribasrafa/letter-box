@@ -1,7 +1,15 @@
 # Importando a biblioteca do Flask para fazer um site
+import aqlite3
 from flask import Flask, render_template, request, redirect, url_for, flash
 app = Flask(__name__)
 app.secret_key = "chave_segura"
+
+#função para conectar ao banco de dados SQLite
+def get_db_connection():
+    conn = sqlite3.connect('meu_banco.db')
+    conn.row_factory = sqlite3.Row
+    #facilita acessar as colunas pelo nome
+    return conn
 
 # criar uma lista de usuarios e senha, depois vamos pegar no DB
 usuarios = {
